@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔗 URL Shortener</h1>
+    <form id="urlForm">
+      <input type="url" id="longUrl" placeholder="Enter long URL" required>
+      <input type="text" id="customAlias" placeholder="Custom alias (optional)">
+      <button type="submit">Shorten</button>
+    </form>
+    <div id="result"></div>
+    <div id="list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
